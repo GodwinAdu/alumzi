@@ -1,0 +1,17 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": [
+    "node_modules",
+    ".git",
+    "logs",
+    "*.log",
+    "dist",
+    ".env",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+  "delay": 2000,
+  "legacyWatch": true,
+  "exec": "ts-node --transpile-only src/server.ts"
+}
